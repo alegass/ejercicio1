@@ -10,6 +10,6 @@ public class CronometroTest {
 	@Test
 	public void testCronometro(){
 		Cronometro cronometro = new Cronometro();
-		assertEquals("A test for Hello World String", "Cronometro", cronometro.iniciarCronometro());
+		assertEquals("A test for Cronometro String", "Cronometro", cronometro.iniciarCronometro());
 	}
 }
