@@ -15,11 +15,11 @@
 	    public Cronometro()
 	    {
 	        setTitle("Cronometro");
-	        setSize( 300, 200 );
+	        setSize(300, 200);
 	        setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 	        setLayout( new BorderLayout() );
 
-	        //Etiqueta donde se colocara el tiempo 
+	        //Etiqueta donde se colocara el tiempo
 	        tiempo = new JLabel( "00:00:000" );
 	        tiempo.setFont( new Font( Font.SERIF, Font.BOLD, 50 ) );
 	        tiempo.setHorizontalAlignment( JLabel.CENTER );
@@ -112,7 +112,7 @@
 	        }
 	    }
 
-	    //Iniciar el cronometro poniendo cronometroActivo 
+	    //Iniciar el cronometro poniendo cronometroActivo
 	    //en verdadero para que entre en el while
 	    public void iniciarCronometro() {
 	        cronometroActivo = true;
@@ -136,7 +136,7 @@
 	    JLabel tiempo;
 	    Thread hilo;
 	    boolean cronometroActivo;
-	
-	
+
+
 }
 
