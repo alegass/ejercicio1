@@ -6,10 +6,10 @@ import org.junit.Test;
 
 import uk.co.placona.Cronometro.Cronometro;
 
-public class HelloWorldTest {
+public class CronometroTest {
 	@Test
-	public void testHellowWorld(){
+	public void testCronometro(){
 		Cronometro cronometro = new Cronometro();
-		assertEquals("A test for Hello World String", "Hello World", cronometro.iniciarCronometro());
+		assertEquals("A test for Hello World String", "Cronometro", cronometro.iniciarCronometro());
 	}
 }
