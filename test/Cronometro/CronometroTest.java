@@ -1,4 +1,4 @@
-package helloWorld;
+package Cronometro;
 
 import static org.junit.Assert.*;
 
